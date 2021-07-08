@@ -1,0 +1,416 @@
+/*----------global-------*/
+html {
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+ h1 {
+    font-size: 2em;
+ }
+ h2, h3, h5 .main-title {
+    font-size: 2em;
+ }
+ h4 {
+    font-size: 1em;
+ }
+
+.main-title-actualites {
+    font-size: 30px;
+    font-weight: lighter;
+    color:  #1A434D;
+}
+.main-title-actualites, .fa-eye, .fa-comment, .fa-heart {
+  color: #1A434D;
+  margin-bottom: 0px;
+}
+/*----------Typo---------*/
+p, .p-stats, .p-stats-nb,.p-agir {
+    color: white;
+}
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.card-cta {
+    margin-top: 20px;
+    color: #B6BFCE;
+}
+.p-stats {
+    font-weight: bold;   
+}
+.p-stats-nb {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*--typo--page--actualité--*/
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: #B6BFCE;
+}
+/*----------media-queries--------*/
+@media (max-width: 960px){
+    p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1140px){
+    .img-fluid-container-cta {
+        display: none;
+    }
+    .container-stats {
+        display: none;
+    }
+    h1, {
+        font-size: 2rem;
+    }
+    h2, h3, h5 .main-title {
+        font-size: 1rem;
+     } 
+    .block-map {
+        display: none;
+    } 
+    .footer, .container-footer-text, .footer-secondary {
+        font-size: 10px;
+    }
+    .btn-secondary, .btn, .btn-secondary-agir {
+            padding:4px 9px;
+            font-size:90%;
+            line-height: 1.2;
+    }
+    .video-responsive {
+        width: 210px;
+        height: 160px;
+        
+    }
+    .card-pdf {
+        width: 300px;
+    }
+    }
+/*----------links---------*/
+.block {
+    height: 100%;
+}
+.card-link {
+    color: #DFEB67;
+}
+.card-link:hover {
+    color: #1A434D;
+}
+
+/*----------îcones---------*/
+.fab-items {
+    color: #B6BFCE;
+    font-size: xx-large;
+}
+.fab-items:hover {
+    color: #DFEB67;
+}
+.fa-arrow-circle-right:hover {
+    color: white;
+    transition: all 0.8s;
+}
+.fa-twitter {
+    font-size: 40px;
+}
+/*----------List---------*/
+ul, li {
+    opacity: 70%;    
+}
+ul {
+    margin-bottom: 20px;
+}
+li {
+    list-style-type: none;
+}
+.list-item,a {
+    text-decoration: none;
+}
+.list-title, .fab-items-left {
+padding: 0px 0px 0px 29px;
+}
+/*----------forms--------*/
+.form-check-label {
+    padding-bottom: 15px;
+    color: #1A434D;
+}
+
+/*----------button--------*/
+.btn-outline-secondary {
+    color: #B6BFCE;
+    border-color: #B6BFCE;
+    border-radius: 40px;
+}
+.btn-outline-secondary:hover {
+    color: #1A434D;
+    background-color: #DFEB67;
+    border-color: #DFEB67;
+}
+.btn-secondary, .btn-secondary-agir {
+    background-color: #DFEB67;
+    color: white;
+    border-color:  #DFEB67; 
+    border-radius: 40px;
+    margin-top: 70px;
+}
+.btn-secondary:hover {
+    background: none;
+    border-color: #1A434D;
+    color:  #1A434D;
+}
+.btn-secondary-agir:hover {
+     background: none;
+    border-color: #DFEB67;
+    color:  #DFEB67;
+}
+.btn-media {
+    background-color: #1A434D; 
+    color: white;
+    border-radius: 40px;
+}
+.btn-media:hover {
+    background-color: #DFEB67;
+    color: white;
+}
+.btn-custom {
+    color:  #1A434D;
+}
+.btn-footer {
+    border-radius: 40px;
+    background:  #DFEB67;
+    border-color: #DFEB67;
+    color:  white;
+}
+/*----------Badge-NEWS--------*/
+.badge {
+ background-color: #1A434D;
+}
+.subtitle-badge-actualites {
+    font-weight: lighter;
+    color: #B6BFCE; 
+    margin-bottom: 0px;
+}
+/*----------video---------*/
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/*----------header--------*/
+.header, .actualites {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    color: #1A434D;
+}
+.header {
+    background-image: url(../images/header-main-ng-img.jpg);
+}
+.actualites {   /*---header--page--actualités--*/
+    position: relative;
+    background-image: url(../images/bg-img-actualites.jpg);
+}
+
+.header-actualites {
+    margin-top: 10%;
+    margin-bottom: Opx;
+}
+
+.header_main {
+    display: flex;
+    align-items: flex-start;
+}
+.header_main--title {
+    margin: 60px;
+}
+.header_main--title-bg{
+    background-color: #DFEB67;
+    color: #1A434D;
+}
+.header_main--title-secondary {
+    font-weight: lighter;
+    opacity: 70%;
+}
+/*---------- nav--------- */
+#navb a:hover, .navbar-brand, .navbar-logo, .nav-link-footer {
+    color: #1A434D;
+}
+#navb a:hover {
+    border-bottom: 3px solid #DFEB67;
+}
+.navbar {
+    padding: 10px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-logo {
+    background-color: #DFEB67;
+    color: #1A434D;
+    font-weight: bold;
+}
+.nav-link {
+    color: #A0A0A0;
+    font-weight: lighter;
+}
+/*----------containers-----*/
+.container-shadow, .container-actions, .container-cta {
+    color: #1A434D;
+}
+.container-shadow {
+    height: 400px;
+}
+#container-links {
+    height: 170px;
+    padding-top: 40px;
+    background-color:  #1A434D; 
+} 
+.container-title-secondary {
+    position: relative;
+    height: 350px;
+    padding-top: 60px;
+    background: #1A434D;
+    color: white
+} 
+.container-actions {
+    position: relative;
+    top: -100px; 
+}
+.container-cta {
+    height: 500px;
+    margin: 10% 0px 15% 20%;
+}
+
+.img-fluid-container-cta {
+ margin-left: 30px;
+}
+.container-agir, .container-media {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.container-agir{
+    background-image: url(../images/planter-terre.png);
+    height: 700px;
+}
+.container-agir-text {
+    margin-left: 50%;
+    margin-top: 7%;
+    padding: 30px;
+}
+.container-media {
+    background-image: url(../images/bg-img-twitter.png);
+    background-color: rgba(223,235,103,100%);
+    padding: 200px 0;
+}
+.container-media, h3 {
+    font-weight: lighter;
+}
+.container-media-title {
+    margin-bottom: 2%;
+}
+.container-contact {
+    position: relative;
+    top: -100px;
+    margin-bottom: 10%;
+}
+/*----------articles----------*/
+.card-body-video-responsive {
+    margin: 10% 18%;
+}
+.card-body {
+    margin-bottom: 10%;
+}
+/*----------stats----------*/
+.container-stats {
+    width: 100%;
+    height: 200px;
+    padding: 45px;
+    background-color: #1A434D;
+}
+/*----------blocs----------*/
+..wood-block, .graduation-block,.bed-block,.info-block,.flag-block {
+    transition: transform .2s; 
+}
+.wood-block:hover, .graduation-block:hover,.bed-block:hover,.info-block:hover,.flag-block:hover {
+    color: white;
+    background-size: cover;
+    padding: 50px;
+    transform: scale(1.5); /* (150% zoom)*/
+    width: 200px;
+    margin: 0 auto;
+}
+.wood-block:hover {
+    background-image: url(../images/woods-img.jpg);   
+}
+.graduation-block:hover {
+    background-image: url(../images/eco-ecole2-img.jpg);   
+}
+.bed-block:hover {
+    background-image: url(../images/hotel-room-img.jpg);    
+}
+.info-block:hover {
+    background-image: url(../images/radio-img.jpeg);    
+}
+.flag-block:hover {
+    background-image: url(../images/pavillon-bleu-2-imgjpg.jpg);   
+}
+/*---------cards-----------*/
+.card-map {
+    background-color: #1A434D;
+}
+.card-map, .card-title-map { 
+    color: white;
+}
+.card-body-video-responsive, h5 {
+    color: #1A434D;
+}
+
+/*-----zoom--images-blocs---*/
+.img-zoom-hover .img-zoom {
+    overflow: hidden;
+    position: relative;
+}
+.img-zoom-hover .img-zoom img {
+    max-width: 100%;
+    transition: all 0.8s;
+}
+.img-zoom-hover .img-zoom * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img-zoom-hover:hover .img-zoom img {
+    transform: scale(1.06);
+}
+
+/*----------footer--------*/
+.footer {
+    background-color: #F5F7F9;
+    color: #1A434D;
+    padding: 30px 30px;
+}
+.container-footer {
+    background-color: #1A434D;
+    color:#B6BFCE;
+    height: 70px;
+}
+.container-footer-text {
+    margin-top: 20px; 
+}
